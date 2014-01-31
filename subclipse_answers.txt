@@ -1,0 +1,12 @@
+1. - Check out
+   - Work on your code
+   - Synchronize
+   - Resolve conflicts
+   - Commit
+   - Update
+2. - Work on your code
+   - Synchronize
+   - Commit
+   - Update
+3. True. Any small changes is matter, team must know about them.
+4. True. Yes it is!
