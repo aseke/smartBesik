@@ -1,4 +1,4 @@
 smartBesik
 ==========
 
-software for smartBesik by wow
+read project proposal
