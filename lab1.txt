@@ -1,0 +1,5 @@
+Actor: Parents
+Use cases: Cradle Besik; 
+	   test for temperature;
+	   test for cover or not;
+	   play lullabies;
