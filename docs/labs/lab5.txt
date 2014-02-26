@@ -1,0 +1,11 @@
+A3.1 example problems:
+
+1. Not correctly divide functions to actors:
+	only one actor User, but there is at least three: Viewer, Friends, Owners
+2. Puncts 3.2, 3.3, 3.4 not described	
+3. In 2.2.4 Delete file use-case there is not showed post condition in diagram
+
+Features:
+
+1. Notification center: it's notificates all changes in real time
+2. Auto mode: Users can turn on auto mode for auto cradling and music playing
