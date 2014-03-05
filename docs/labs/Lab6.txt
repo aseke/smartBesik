@@ -1,0 +1,8 @@
+3.2.1.5.4 "Every data" not unambiguous.
+Not exactly described which data must and must not hashed.
+
+3.2.1.6 Not feasible. It is only possible if ips are every time stable.
+
+3.2.1.6.5.1 Not unambigous. Not exactly which ips should system save. 
+
+3.2.2.2.1 Not complete. Not exactly described which info should be displayed.
