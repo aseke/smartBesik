@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/sleepImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_alignBaseline="@+id/cryImg"
+        android:layout_alignBottom="@+id/cryImg"
+        android:layout_toRightOf="@+id/cryImg"
+        android:layout_marginLeft="-3dp"
+        android:src="@drawable/sleep"
+       />
+
+    <ImageView
+        android:id="@+id/rubbishImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/sleepImg"
+        android:layout_alignBottom="@+id/sleepImg"
+        android:layout_toRightOf="@+id/sleepImg"
+        android:layout_marginLeft="-3dp"
+        android:src="@drawable/rabbish"
+        />
+
+    <ImageView
+        android:id="@+id/timeImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/cryImg"
+        android:layout_below="@+id/cryImg"
+        android:layout_marginTop="-2dp"
+        android:src="@drawable/border"
+         />
+
+    <ImageButton
+        android:id="@+id/speedButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/autoButton"
+        android:layout_alignBottom="@+id/autoButton"
+        android:layout_toRightOf="@+id/autoButton"
+        android:layout_marginLeft="-3dp"
+        android:src="@drawable/speed"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:onClick="onclick"
+         />
+
+    <ImageButton
+        android:id="@+id/manCradleButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/speedButton"
+        android:layout_alignBottom="@+id/speedButton"
+        android:layout_toRightOf="@+id/speedButton"
+        android:layout_marginLeft="-3dp"
+        android:src="@drawable/manually_cradle"
+        android:scaleType="fitXY"
+        android:onClick="onclick"
+        android:background="@null"
+         />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/sleepImg"
+        android:layout_toRightOf="@+id/timeImg"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="-2dp"
+        android:src="@drawable/play" 
+        android:onClick="onclick"/>
+
+    <ImageView
+        android:id="@+id/tempImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignRight="@+id/rubbishImg"
+        android:layout_alignTop="@+id/timeImg"
+        android:src="@drawable/border" />
+
+    <ImageButton
+        android:id="@+id/autoButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/playButton"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:onClick="onclick"
+        android:src="@drawable/auto" />
+"
+    <ImageView
+        android:id="@+id/cryImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="14dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/not_cry" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="110dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/smartbesik" />
+
+    <TextView
+        android:id="@+id/temperatureTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/timeImg"
+        android:layout_alignLeft="@+id/timeImg"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/huminTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rubbishImg"
+        android:layout_alignTop="@+id/playButton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp" />
+
+</RelativeLayout>
