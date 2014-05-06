@@ -1,0 +1,2 @@
+platform :ios, '7.0'
+pod 'SBJSon', '~> 4.0.0'
